@@ -1,0 +1,9 @@
+{
+    "name": "traincolorsignal",
+    "title": "Train Color Signal",
+    "author": "Therax",
+    "description": "Output the color of the train stopped at a station as RGB signals.",
+    "factorio_version": "0.16",
+    "version": "0.1.0",
+    "dependencies": []
+}
