@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0 - First public release
-Date: 14.11.2018
+Date: 15.11.2018
   Major Features:
     - Send R, G, B signals from a station based on stopped train color.
