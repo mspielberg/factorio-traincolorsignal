@@ -1,7 +1,7 @@
 local empty_sprite = {
   filename = "__core__/graphics/empty.png",
-  width = 0,
-  height = 0,
+  width = 1,
+  height = 1,
 }
 data:extend{
     {
@@ -13,5 +13,6 @@ data:extend{
         activity_led_light_offsets = {{0,0},{0,0},{0,0},{0,0}},
         circuit_wire_connection_points = circuit_connector_definitions["train-station"].points,
         circuit_wire_max_distance = default_circuit_wire_max_distance,
+        draw_circuit_wires = false,
     }
 }

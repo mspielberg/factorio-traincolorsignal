@@ -1,5 +1,11 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.0 - First public release
-Date: 15.11.2018
+Date: 2019-02-26
+  Changes:
+    - Update to Factorio 0.17.
+    - Use red, green, and blue color signals instead of the letters R, G, and B.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0 - First public release
+Date: 2018-11-15
   Major Features:
     - Send R, G, B signals from a station based on stopped train color.

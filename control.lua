@@ -74,9 +74,9 @@ local function create_combinator(train)
 
   combinator.get_control_behavior().parameters = {
     parameters = {
-      { index = 1, count = color.r * 255, signal = {type = "virtual", name="signal-R"} },
-      { index = 2, count = color.g * 255, signal = {type = "virtual", name="signal-G"} },
-      { index = 3, count = color.b * 255, signal = {type = "virtual", name="signal-B"} },
+      { index = 1, count = color.r * 255, signal = {type = "virtual", name="signal-red"} },
+      { index = 2, count = color.g * 255, signal = {type = "virtual", name="signal-green"} },
+      { index = 3, count = color.b * 255, signal = {type = "virtual", name="signal-blue"} },
     }
   }
 
