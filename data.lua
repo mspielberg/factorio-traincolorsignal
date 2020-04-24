@@ -7,6 +7,7 @@ data:extend{
     {
         type = "constant-combinator",
         name = "traincolorsignal-combinator",
+        collision_mask = {},
         item_slot_count = 3,
         sprites = empty_sprite,
         activity_led_sprites = empty_sprite,
