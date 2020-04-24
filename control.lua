@@ -109,8 +109,13 @@ end
 
 local function on_mined_entity(event)
   local entity = event.entity
-  if entity.valid and entity.train then
+  if entity.train then
     destroy_combinator(entity.train)
+  elseif entity.type == "train-stop" then
+    local combinator = entity.surface.find_entity("traincolorsignal-combinator", entity.position)
+    if combinator then
+      combinator.destroy()
+    end
   end
 end
 
