@@ -1,5 +1,12 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.0 - First public release
+Version: 0.3.0
+Date: 2020-04-23
+  Changes:
+    - Update to Factorio 0.18.
+  Bugfixes:
+    - Remove the hidden combinator when mining a station with a train stopped at it.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
 Date: 2019-02-26
   Changes:
     - Update to Factorio 0.17.
