@@ -18,7 +18,7 @@ local function station_carriage(station)
     return nil
   end
   return station.surface.find_entities_filtered{
-    type = {"locomotive", "cargo-wagon", "fluid-wagon"},
+    type = {"locomotive", "cargo-wagon", "fluid-wagon", "artillery-wagon"},
     position = position,
   }[1]
 end
@@ -97,6 +97,13 @@ local function destroy_combinator(train)
     combinator.destroy()
   end
 end
+
+--[[
+local reversed_train_state = {}
+for k,v in pairs(defines.train_state) do
+  reversed_train_state[v] = k
+end
+]]
 
 local function on_train_changed_state(event)
   local train = event.train
